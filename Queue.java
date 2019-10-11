@@ -1,7 +1,7 @@
 
-public interface Queue<T> {
+public interface Queue<T> { //<T> means we can take any data type
 	
-	public T dequeue() throws Exception;
+	public T dequeue();
 	public void enqueue(T item);
 	public boolean empty();
 
